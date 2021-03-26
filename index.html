@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./styles/style.css">
+	<link rel="shortcut icon" href="./images/netflix-ico.ico" type="image/x-icon">
+	<title>Netflix Brasil - assistir a séries online, assistir a filmes online</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="opacity-container">
+			<header>
+				<img id="logo" src="./images/netflix-logo.svg" alt="Logo">
+				<div class="language-buttons">
+					<select class="language" name="language">
+						<option value="PT">Português</option>
+						<option value="EN">English</option>
+					</select>
+					<input type="button" value="Entrar">
+				</div>
+			</header>
+			<h1>Filmes, séries e muito mais.<br> Sem limites.</h1>
+			<h2>Assista onde quiser. Cancele quando quiser.</h2>
+			<h3>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
+			<form action="">
+				<input type="text" placeholder="Email">
+				<input type="button" value="Vamos lá">
+			</form>
+		</div>
+	</div>
+	<hr>
+	<div class="tv-container">
+		<div class="text-container-tv">
+			<h1 class="tv">Aproveite na TV.</h1>
+			<h2 class="tv-description">Assista em Smart TVs, PlayStation, Xbox, <br>Chromecast, Apple TV, aparelhos de Blu-ray
+				e <br>outros
+				dispositivos.</h2>
+		</div>
+		<img id="tv-image" src="./images/tv.png" alt="TV image">
+		<video id="video-tv" src="./videos/video-tv-0819.m4v" autoplay loop></video>
+	</div>
+	<hr>
+	<div class="smartphone-container">
+		<img id="smartphone-image" src="./images/mobile-0819.jpg" alt="Smartphone image">
+		<div id="card-title">
+			<img src="./images/boxshot.png" alt="Serie title">
+			<div class="text-card">
+				<p>Stranger Things</p>
+				<span>Download em andamento...</span>
+			</div>
+			<img id="download-arrow" src="./images/seta-esquerda.svg" alt="arrow down">
+		</div>
+		<div class="smartphone-text-container">
+			<h1>Baixe séries para <br>assistir offline.</h1>
+			<h2>Salve seus títulos favoritos e sempre tenha <br>algo para assistir.</h2>
+		</div>
+	</div>
+	<hr>
+	<div class="devices-container">
+		<div class="device-text-container">
+			<h1>Assista quando quiser.</h1>
+			<h2>Assista no celular, tablet, Smart TV ou <br>notebook sem pagar a mais por isso.</h2>
+		</div>
+		<img src="./images/device-pile.png" alt="Devices image">
+		<video src="./videos/video-devices.m4v" autoplay loop></video>
+	</div>
+	<hr>
+	<div class="questions-container">
+		<h1>Perguntas frequentes</h1>
+		<select name="questions1">
+			<option value="" hidden>
+				O que é a Netflix?
+			</option>
+		</select>
+		<select name="questions2">
+			<option value="" hidden>
+				Quanto custa a Netflix?
+			</option>
+		</select>
+		<select name="questions3">
+			<option value="" hidden>
+				Onde posso assistir?
+			</option>
+		</select>
+		<select name="questions4">
+			<option value="" hidden>
+				Como faço para cancelar?
+			</option>
+		</select>
+		<select id="last-question" name="questions5">
+			<option value="" hidden>
+				O que eu posso assistir na Netflix?
+			</option>
+		</select>
+	</div>
+	<div class="email">
+		<h3>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
+		<form action="">
+			<input type="text" placeholder="Email">
+			<input type="button" value="Vamos lá">
+		</form>
+	</div>
+	<hr>
+	<footer>
+		<p>Dúvidas? Ligue 0800-761-4631</p>
+		<div class="links1">
+			<a href="#">Perguntas frequentes</a><br>
+			<a href="#">Relações com investidores</a><br>
+			<a href="#">Formas de assistir</a><br>
+			<a href="#">Infotmações corporativas</a><br>
+			<a href="#">Originais Netflix</a><br>
+		</div>
+		<div class="links1">
+			<a href="#">Centro de ajuda</a><br>
+			<a href="#">Carreiras</a><br>
+			<a href="#">Termos de uso</a><br>
+			<a href="#">Entre em contato</a><br>
+		</div>
+		<div class="links1">
+			<a href="#">Conta</a><br>
+			<a href="#">Resgatar cartão pré-pago</a><br>
+			<a href="#">Privacidade</a><br>
+			<a href="#">Teste de velocidade</a><br>
+		</div>
+		<div class="links1">
+			<a href="#">Imprensa</a><br>
+			<a href="#">Comprar cartão pré-pago</a><br>
+			<a href="#">Preferências de cookies</a><br>
+			<a href="#">Avisos legais</a><br>
+		</div>
+		<select id="lang" class="language" name="language">
+			<option value="PT">Português</option>
+			<option value="EN">English</option>
+		</select>
+		<p id="netflix">Netflix Brasil</p id="netflix">
+	</footer>
+</body>
+
+</html>
